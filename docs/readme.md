@@ -10,11 +10,14 @@
 - [x] blog post repostory repo created
 - [x] planned out the milestones
 ### Milestone 1 - make it exist
-- [ ] direct port of current structure with no changes to functionality
-    - [ ] daily post files now separated to their own repository
-    - [ ] stylesheet left in parent repo
+- [x] direct port of current structure with no changes to functionality
+    - [x] daily post files now separated to their own repository
+    - [x] stylesheet left in parent repo
+- [ ] add as submodule
+    - [ ] update paths to take post files from submodule
 - [ ] verify working
 ### Milestone 2 - baby steps
+- [ ] update image paths to be using the submodule location
 - [ ] analyse if current structure can have new post generation be automated
 - [ ] determine next steps regarding `.md` and `.sh` files
 - [ ] confirm if we can still use `XMLHttpRequest`
