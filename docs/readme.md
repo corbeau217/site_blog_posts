@@ -13,18 +13,25 @@
 - [x] direct port of current structure with no changes to functionality
     - [x] daily post files now separated to their own repository
     - [x] stylesheet left in parent repo
-- [ ] add as submodule
-    - [ ] update paths to take post files from submodule
-- [ ] verify working
+- [x] add as submodule
+    - [x] update paths to take post files from submodule
+- [x] verify working
 ### Milestone 2 - baby steps
-- [ ] update image paths to be using the submodule location
-- [ ] analyse if current structure can have new post generation be automated
-- [ ] determine next steps regarding `.md` and `.sh` files
-- [ ] confirm if we can still use `XMLHttpRequest`
+- [x] update image paths to be using the submodule location
+- [x] analyse if current structure can have new post generation be automated
+- [x] determine next steps regarding `.md` and `.sh` files
+- [x] confirm if we can still use `XMLHttpRequest`
 ### Milestone 3 - automation
 - [ ] `.md` support
+    - [ ] create script file for conversion of `.md` to appropriate html code
+### Milestone 4 - automated new files
 - [ ] `.sh` to generate the list of posts
-### Milestone 4 - "more"
+    - [ ] generates file header
+    - [ ] searches folders to get paths
+    - [ ] uses placeholder metadata
+- [ ] look in to having header at the start of `.md` files to hold information
+    - [ ] can our `.sh` file read this and include it in our list of posts?
+### Milestone 5 - "more"
 - [ ] small number loaded from most recent, action is taken to request more
     - [ ] button to load X more
     - [ ] investigate infinite scrolling
